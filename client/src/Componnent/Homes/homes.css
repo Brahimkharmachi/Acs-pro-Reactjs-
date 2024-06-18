@@ -1,0 +1,84 @@
+.accueil h5 {
+  background-color: #007EB5;
+  color: white;
+  text-align: start;
+  padding: 12px 20px;
+  font-family:"Marcellus", serif ;
+}
+
+.accueil {
+  margin-bottom: -8px;
+}
+
+#home-part-two-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#home-part-two-text h2 {
+    color: #13243f;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 20px;
+}
+
+#home-part-two-text p {
+    color: #13243f;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.home-part-three {
+    background-color:#13243f ;
+}
+
+#home-part-three-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#home-part-three-text h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 20px;
+}
+
+#home-part-three-text p {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#home-part-four-text h2{
+  color: #13243f;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-bottom: 20px;
+}
+
+#home-part-four-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+#home-part-four-text p {
+  color: #13243f;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#carou {
+  width: 1349px;
+  height: 436px;
+}
+

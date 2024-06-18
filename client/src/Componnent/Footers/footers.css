@@ -1,0 +1,21 @@
+.footer {
+    background-color: white;
+}
+
+.nosclients h5 {
+  background-color: #007EB5;
+  color: white;
+  text-align: start;
+  padding: 12px 20px;
+  font-family:"Marcellus", serif ;
+}
+
+.nosclients {    margin-bottom: 70px;
+}
+
+.logofooter {
+    width: 60%;
+}
+
+
+
