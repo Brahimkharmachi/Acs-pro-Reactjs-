@@ -1,0 +1,28 @@
+.maintenance h5 {
+  background-color: #007eb5;
+  color: white;
+  text-align: start;
+  padding: 12px 20px;
+  font-family: "Marcellus", serif;
+}
+.maintenance-p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 12px 20px;
+  background-color: white;
+  color: #13243f;
+  padding-bottom: 56px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.maintenance-p img {
+  width: 50%;
+}
+
+.maintenance p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

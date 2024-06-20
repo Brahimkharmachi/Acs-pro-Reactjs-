@@ -1,6 +1,7 @@
+import React from "react";
 import "./headers.css";
 import { useState, useEffect } from "react";
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 function ColorSchemesExample() {
   const [isSticky, setIsSticky] = useState(false);
@@ -24,23 +25,35 @@ function ColorSchemesExample() {
       className={`sticky-lg-top ${isSticky ? "sticky" : ""}`}
     >
       <Container fluid>
-        <Navbar.Brand href="#">
-          <img src="./acs-pro.gif" alt="logo" width="150px" />
+        <Navbar.Brand href="/">
+          <img src="./acs-pro.webp" alt="acs pro" width="150px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNavDropdown" />
-        <Navbar.Collapse id="navbarNavDropdown" className="justify-content-center">
-          <Nav className="me-auto" style={{
+        <Navbar.Collapse
+          id="navbarNavDropdown"
+          className="justify-content-center"
+        >
+          <Nav
+            className="me-auto"
+            style={{
               color: "#13243F",
               gap: "55px",
               fontSize: "18px",
               fontFamily: "'Marcellus SC', 'sans-serif'",
-            }}>
+            }}
+          >
             <Nav.Link href="/">ACCUEIL</Nav.Link>
             <Nav.Link href="/entreprise">L'ENTREPRISE</Nav.Link>
             <NavDropdown title="NOS OFFRES" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/conseil-et-conception">CONSEIL ET CONCEPTION</NavDropdown.Item>
-              <NavDropdown.Item href="/installation">L’INSTALLATION</NavDropdown.Item>
-              <NavDropdown.Item href="/maintenance">LA MAINTENANCE</NavDropdown.Item>
+              <NavDropdown.Item href="/conseil-et-conception">
+                CONSEIL ET CONCEPTION
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/installation">
+                L’INSTALLATION
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/maintenance">
+                LA MAINTENANCE
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>

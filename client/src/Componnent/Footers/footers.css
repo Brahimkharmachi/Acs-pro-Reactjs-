@@ -1,21 +1,24 @@
 .footer {
-    background-color: white;
+  background-color: white;
 }
 
-.nosclients h5 {
-  background-color: #007EB5;
-  color: white;
-  text-align: start;
-  padding: 12px 20px;
-  font-family:"Marcellus", serif ;
+.nosclients h2 {
+  color: #007eb5;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-size: 30px;
 }
 
-.nosclients {    margin-bottom: 70px;
+.nosclients {
+  margin-bottom: 70px;
 }
 
 .logofooter {
-    width: 60%;
+  width: 60%;
 }
 
-
-
+.footer-swiper {
+  margin-bottom: 70px;
+}

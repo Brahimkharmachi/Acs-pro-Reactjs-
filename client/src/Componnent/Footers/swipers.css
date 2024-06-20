@@ -1,0 +1,33 @@
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-scrollbar,
+.swiper-scrollbar-horizontal {
+  display: none !important;
+}
+
+.swiper-pagination,
+.swiper-pagination-clickable,
+.swiper-pagination-bullets,
+.swiper-pagination-horizontal {
+  display: none !important;
+}
+
+.custom-carousel {
+  transform: translate3d(-2505.29px, 0px, 0px);
+  transition-duration: 5000ms;
+}
+
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

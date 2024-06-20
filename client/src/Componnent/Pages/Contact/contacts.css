@@ -1,0 +1,77 @@
+.contact h5 {
+  background-color: #007eb5;
+  color: white;
+  text-align: start;
+  padding: 12px 20px;
+  font-family: "Marcellus", serif;
+}
+
+.contact-p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 12px 20px;
+  background-color: white;
+  color: #13243f;
+  padding-bottom: 56px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#contactone h2 {
+  color: #13243f;
+  font-size: 36px;
+  font-family: "Marcellus", serif;
+  font-weight: bold;
+  padding-top: 33px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#contactone p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  top: -30px;
+  color: #13243f;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact-info {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact-info-icon {
+  margin-bottom: 15px;
+}
+.contact-info-item {
+  background: #015292;
+  padding: 30px 0px;
+}
+
+.contact-info-icon i {
+  font-size: 48px;
+  color: #bd095f;
+}
+.contact-info-text p {
+  margin-bottom: 0px;
+}
+.contact-info-text h2 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-info-text span {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+}
