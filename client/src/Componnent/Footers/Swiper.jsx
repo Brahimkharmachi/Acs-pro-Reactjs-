@@ -9,7 +9,7 @@ import {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./swipers.css";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -18,16 +18,21 @@ import "swiper/css/scrollbar";
 export default function Swiperr() {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-      loop={true}
-      autoplay={true}
-      spaceBetween={30}
-      slidesPerView={5}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+    loop={true}
+    autoplay={{
+      delay: 0,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: false,
+    }}
+    speed={5000}
+    spaceBetween={30}
+    slidesPerView={5}
+    navigation
+    pagination={{ clickable: true }}
+    scrollbar={{ draggable: true }}
+    onSwiper={(swiper) => console.log(swiper)}
+    onSlideChange={() => console.log("slide change")}
     >
       <SwiperSlide>
         <img src="./carousel-footer/golden-tulip.webp" alt="Golden Tulip" />

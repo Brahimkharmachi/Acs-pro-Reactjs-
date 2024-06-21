@@ -28,7 +28,7 @@ function ColorSchemesExample() {
         <Navbar.Brand href="/">
           <img src="./acs-pro.webp" alt="acs pro" width="150px" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarNavDropdown" />
+        <Navbar.Toggle aria-controls="navbarNavDropdown" className="custom-toggler" />
         <Navbar.Collapse
           id="navbarNavDropdown"
           className="justify-content-center"
