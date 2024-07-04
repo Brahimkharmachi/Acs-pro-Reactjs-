@@ -31,9 +31,32 @@ export default function Swiperr() {
     navigation
     pagination={{ clickable: true }}
     scrollbar={{ draggable: true }}
+    breakpoints={{
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+      1280: {
+        slidesPerView: 5,
+        spaceBetween: 30,
+      },
+    }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log("slide change")}
-    >
+  >
+
       <SwiperSlide>
         <img src="./carousel-footer/golden-tulip.webp" alt="Golden Tulip" />
       </SwiperSlide>

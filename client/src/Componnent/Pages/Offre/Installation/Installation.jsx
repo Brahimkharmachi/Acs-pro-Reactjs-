@@ -38,6 +38,7 @@ function Installations() {
                   src="./carousel-installation/installation2.webp"
                   className="d-block w-100"
                   alt="installation2"
+
                 />
               </MDBCarouselItem>
               <MDBCarouselItem itemId={3}>
@@ -45,6 +46,7 @@ function Installations() {
                   src="./carousel-installation/installation4.webp"
                   className="d-block w-100"
                   alt="installation4"
+
                 />
               </MDBCarouselItem>
               <MDBCarouselItem itemId={4}>
@@ -52,6 +54,7 @@ function Installations() {
                   src="./carousel-installation/installation5.webp"
                   className="d-block w-100"
                   alt="installation5"
+                  
                 />
               </MDBCarouselItem>
             </MDBCarousel>

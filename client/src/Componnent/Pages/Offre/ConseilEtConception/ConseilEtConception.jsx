@@ -21,10 +21,9 @@ function ConseilEtConception() {
             <MDBCarousel style={{ width: "710px", height: "460px" }}>
               <MDBCarouselItem itemId={1}>
                 <img
-                  src="./conseil.webp"
+                  src="./Sans.jpg"
                   className="d-block w-100"
                   alt="conseil"
-                  style={{ width: "1100px", height: "486px" }}
                 />
               </MDBCarouselItem>
             </MDBCarousel>
